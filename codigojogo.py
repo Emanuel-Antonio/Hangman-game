@@ -4,24 +4,7 @@ from random import randint
 continuar_jogando = "S"
 while continuar_jogando != 'N':
     #matriz contendo três listas com varias palavras, tais listas representas níveis de dificuldade
-    lista_palavras = [['amarelo', 'amiga', 'amor', 'ave', 'aviao', 'avo', 'balao', 'bebe', 'bolo', 'branco', 'cama', 'caneca',
-          'celular', 'clube',
-          'copo', 'doce', 'elefante', 'escola', 'estojo', 'faca', 'foto', 'garfo', 'geleia', 'girafa', 'janela',
-          'limonada', 'mae',
-          'meia', 'noite', 'oculos', 'onibus', 'ovo', 'pai', 'pao', 'parque', 'passarinho', 'peixe', 'pijama', 'rato',
-          'umbigo'],
-         ['afobado', 'amendoim', 'banheiro', 'caatinga', 'cachorro', 'campeonato', 'capricornio','catapora', 'corrupcao', 'crepusculo', 'empenhado', 'esparadrapo', 'forca', 'galaxia', 'historia', 'magenta',
-          'manjericao', 'menta',
-          'moeda', 'oracao', 'pacoca', 'palavra', 'pedreiro', 'pneumonia', 'pulmao', 'rotatoria', 'serenata',
-          'transeunte', 'trilogia', 'xicara'],
-         ['acender', 'afilhado', 'ardiloso', 'aspero', 'assombracao', 'asterisco', 'basquete', 'caminho', 'champanhe',
-          'chiclete', 'chuveiro',
-          'coelho', 'contexto', 'convivencia', 'coracao', 'desalmado', 'eloquente', 'esfirra', 'esquerdo', 'excecao',
-          'fugaz', 'gororoba',
-          'heterossexual', 'horrorizado', 'impacto', 'independencia', 'modernidade', 'oftalmologista',
-          'otorrinolaringologista', 'paralelepipedo',
-          'pororoca', 'prognosticio', 'quarentena', 'quimera', 'refeicao', 'reportagem', 'sino', 'taciturno', 'tenue',
-          'visceral']]
+    lista_palavras = [['amarelo', 'amiga', 'amor', 'ave', 'aviao', 'avo', 'balao', 'bebe', 'bolo', 'branco', 'cama', 'caneca'], ['afobado', 'amendoim', 'banheiro', 'caatinga', 'cachorro', 'campeonato', 'capricornio','catapora', 'corrupcao', 'crepusculo', 'empenhado', 'esparadrapo', 'forca', 'galaxia', 'historia', 'magenta'], ['acender', 'afilhado', 'ardiloso', 'aspero', 'assombracao', 'asterisco', 'basquete', 'caminho', 'champanhe', 'chiclete', 'chuveiro', 'coelho', 'contexto', 'convivencia', 'coracao']]
     print('\033[036m-='*20)
     print('             JOGO DA FORCA')
     print('-=' * 20)
